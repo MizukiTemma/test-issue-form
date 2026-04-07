@@ -124,7 +124,7 @@ body:
       required: false
 
 
-    - type: markdown
+  - type: markdown
     attributes:
       value: |
         ---
