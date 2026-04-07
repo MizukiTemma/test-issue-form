@@ -1,7 +1,7 @@
 name: ⚙️ Task
 description: A specific piece of engineering, operational, or organisational work that supports implementation, maintenance, or operations
 title: "[Task]: "
-type: ["task"]
+type: task
 body:
   - type: markdown
     attributes:
