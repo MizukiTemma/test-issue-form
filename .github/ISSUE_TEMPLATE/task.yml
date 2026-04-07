@@ -123,8 +123,6 @@ body:
 
         ### Rollback Plan
         - 
-    validations:
-      required: false
 
         ### Coordination Required
         - **Team/person to coordinate with: ...**
