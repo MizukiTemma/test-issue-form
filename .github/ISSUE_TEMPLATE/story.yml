@@ -1,7 +1,7 @@
 name: 📖 User Story
 description: A user-facing feature or enhancement described from the user's perspective
 title: "[Story]: "
-type: ["story"]
+type: story
 body:
   - type: markdown
     attributes:
