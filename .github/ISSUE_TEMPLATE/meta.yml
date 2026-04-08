@@ -1,6 +1,6 @@
 name: 🗂️ Meta Issue
 description: A tracking issue that groups and coordinates related issues toward a common goal
-type: ["meta"]
+type: meta
 body:
   - type: markdown
     attributes:
