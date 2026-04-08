@@ -75,6 +75,24 @@ body:
       required: true
 
   - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Where was this bug observed?
+      placeholder: |
+        - **Environment:** Production / Staging / Development / Local
+        - **URL (if applicable):** 
+        - **App version / commit:** 
+        - **Browser:** Chrome 120 / Firefox 121 / Safari 17 / Edge 120
+        - **OS:** Windows 11 / macOS Sonoma / Ubuntu 22.04 / iOS 17 / Android 14
+        - **Device:** Desktop / Mobile / Tablet (model if relevant)
+        - **Screen resolution (if UI bug):** 
+        - **User role / permissions:** 
+        - **Account / tenant (if applicable):**
+    validations:
+      required: true
+
+  - type: textarea
     id: visual-evidence
     attributes:
       label: Screenshots / Videos / Logs
@@ -112,24 +130,6 @@ body:
         - Is there a workaround? Describe it...
     validations:
       required: false
-
-  - type: textarea
-    id: environment
-    attributes:
-      label: Environment
-      description: Where was this bug observed?
-      placeholder: |
-        - **Environment:** Production / Staging / Development / Local
-        - **URL (if applicable):** 
-        - **App version / commit:** 
-        - **Browser:** Chrome 120 / Firefox 121 / Safari 17 / Edge 120
-        - **OS:** Windows 11 / macOS Sonoma / Ubuntu 22.04 / iOS 17 / Android 14
-        - **Device:** Desktop / Mobile / Tablet (model if relevant)
-        - **Screen resolution (if UI bug):** 
-        - **User role / permissions:** 
-        - **Account / tenant (if applicable):**
-    validations:
-      required: true
 
   - type: textarea
     id: regression-info

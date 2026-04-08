@@ -74,18 +74,6 @@ body:
       required: true
 
   - type: textarea
-    id: prior-art
-    attributes:
-      label: Prior Art & Known Resources
-      description: Any existing research, documentation, links, or leads to start from?
-      placeholder: |
-        - [Link to relevant doc]
-        - Previous discussion in #issue-number
-        - Library/tool to evaluate: ...
-    validations:
-      required: false
-
-  - type: textarea
     id: success-criteria
     attributes:
       label: Definition of Done
@@ -110,6 +98,18 @@ body:
         - 🟢 Low — Mostly confirmation / comparison needed
     validations:
       required: true
+  
+  - type: textarea
+    id: prior-art
+    attributes:
+      label: Prior Art & Known Resources
+      description: Any existing research, documentation, links, or leads to start from?
+      placeholder: |
+        - [Link to relevant doc]
+        - Previous discussion in #issue-number
+        - Library/tool to evaluate: ...
+    validations:
+      required: false
 
   - type: textarea
     id: risks
