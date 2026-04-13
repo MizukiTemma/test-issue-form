@@ -69,34 +69,6 @@ body:
       required: true
 
   - type: textarea
-    id: ui-elements
-    attributes:
-      label: UI Elements & Design
-      description: >
-        Describe all user interface elements involved. Include mockups,
-        wireframes, screenshots, or Figma links where available.
-      placeholder: |
-        ### Screens / Views Affected
-        - [ ] Screen/page name
-
-        ### New UI Components
-        | Element | Type | Behavior | States |
-        |---------|------|----------|--------|
-        | e.g. "Save" button | Primary Button | Submits form, shows loading spinner | Default, Hover, Loading, Disabled |
-        | e.g. Email field | Text Input | Validates on blur | Empty, Focused, Filled, Error |
-
-        ### Layout & Positioning
-        Describe where elements appear on the page...
-
-        ### Design Assets
-        - [Figma]
-        - [Screenshot / Wireframe]
-
-        > 💡 Drag and drop images directly into this field to attach them
-    validations:
-      required: false
-
-  - type: textarea
     id: error-states
     attributes:
       label: Error & Edge Case Handling
