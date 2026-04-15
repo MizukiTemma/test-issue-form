@@ -47,18 +47,6 @@ body:
       required: true
 
   - type: textarea
-    id: parent-context
-    attributes:
-      label: Parent / Related Work
-      description: What story, epic, or initiative does this task support?
-      placeholder: |
-        - **Parent story/epic:** #issue-number
-        - **Related tasks:** #issue-number, #issue-number
-        - **Initiative:** [name or link]
-    validations:
-      required: false
-
-  - type: textarea
     id: steps
     attributes:
       label: Steps / Implementation Plan
@@ -167,6 +155,19 @@ body:
         - Relevant docs: [link]
         - Related discussion: [link]
         - Notes: ...
+    validations:
+      required: false
+
+  - type: textarea
+    id: parent-context
+    attributes:
+      label: Parent / Related issue and Work
+      description: What story, epic, or initiative does this task support?
+      placeholder: |
+        - **Parent story/epic:** #issue-number
+        - **integreat-cms issues
+        - **integreat-app issues
+        - **Initiative:** [name or link]
     validations:
       required: false
 

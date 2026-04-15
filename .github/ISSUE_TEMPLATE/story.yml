@@ -154,9 +154,20 @@ body:
       label: Additional Context
       description: Any other information, links, or references
       placeholder: |
-        - Related issues: #123, #456
         - Relevant docs: [link]
         - Mattermost discussion: [link]
+    validations:
+      required: false
+
+  - type: textarea
+    id: related-issues
+    attributes:
+      label: Related Issues
+      description: Are there issues related to this bug?
+      placeholder: |
+        - **integreat-cms issues
+        - **integreat-app issues
+        - **others
     validations:
       required: false
 
